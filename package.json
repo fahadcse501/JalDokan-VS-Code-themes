@@ -1,0 +1,21 @@
+{
+  "name": "JalDokan",
+  "displayName": "JalDokan is VS Code Extrantion",
+  "description": "Jaldokan is VS Code Extrantion",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "jalDokan",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jalDokan-color-theme.json"
+      }
+    ]
+  }
+}
